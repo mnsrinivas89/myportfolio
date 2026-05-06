@@ -12,6 +12,7 @@ import {
   Cpu,
   Layout,
   Code,
+  Cloud,
   CheckCircle2,
   Calendar,
   Download
@@ -105,7 +106,7 @@ const App: React.FC = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             {SKILL_CATEGORIES.map((cat, idx) => {
-              const Icon = cat.iconName === 'Layout' ? Layout : cat.iconName === 'Cpu' ? Cpu : Code;
+              const Icon = cat.iconName === 'Layout' ? Layout : cat.iconName === 'Cpu' ? Cpu : cat.iconName === 'Cloud' ? Cloud : Code;
               return (
                 <div key={idx} className="glass-card p-8 rounded-2xl hover:bg-slate-800/50 transition-all">
                   <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mb-6">

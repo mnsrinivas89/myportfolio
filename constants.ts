@@ -1,39 +1,43 @@
-
 import { Experience, SkillCategory, Metric } from './types';
 
 export const PERSONAL_INFO = {
   name: "Nagendra Srinivas Mavuri",
   title: "Principal Software Architect",
   location: "Chennai, Tamil Nadu",
-  phone: "9840966041",
+  phone: "+91 9840966041",
   email: "nagendrasrinivas08@gmail.com",
   linkedin: "https://www.linkedin.com/in/nagendrasrinivasm",
   github: "https://github.com/mnsrinivas89",
-  summary: "Visionary Principal Software Architect and Technology Leader with 15+ years of progressive experience specializing in high-volume eCommerce and telecommunications platforms. Focused on aligning technology roadmaps with core business objectives and scaling revenue-generating platforms. Strategic expert in modernizing complex systems and leveraging Generative AI Tools."
+  summary: "Principal Software Architect and Engineering Leader with 15+ years of experience designing and delivering high-throughput eCommerce and telecommunications platforms at scale. Proven track record of driving platform modernization, AI/ML integration, and Agentic AI adoption. Expert in microservices architecture, distributed systems, cloud-native solutions, and leading cross-functional engineering teams. Currently spearheading Generative AI and Agentic Experience initiatives — including LLM-powered customer journeys using AG-UI, CopilotKit, and Agent Guardrails — to accelerate business outcomes and conversion velocity. Experienced in Agile/Scrum delivery, stakeholder alignment, and mentoring high-performing teams."
 };
 
 export const METRICS: Metric[] = [
   { label: "Performance Boost", value: "40%", description: "Core web app speed improvement" },
-  { label: "Daily Users", value: "3M+", description: "Scale of systems managed at Verizon" },
+  { label: "Daily Users", value: "3M+", description: "Scale of systems managed" },
   { label: "Experience", value: "15+", description: "Years in software leadership" },
-  { label: "Page Load", value: "3s", description: "Reduced from 5 seconds average" }
+  { label: "Mentored", value: "10+", description: "Engineers managed and mentored" }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    category: "Architectural Strategy",
+    category: "Architecture & Systems Design",
     iconName: "Layout",
-    skills: ["Microservices", "Event-Driven Design (DDD)", "System Design", "REST/gRPC", "High-Availability", "Performance Tuning"]
+    skills: ["Microservices Architecture", "Event-Driven Design (EDA)", "Domain-Driven Design (DDD)", "Distributed Systems", "REST APIs", "gRPC", "High-Availability Systems", "Scalability", "Performance Engineering", "System Design"]
   },
   {
-    category: "Generative AI & LLMs",
+    category: "Agentic AI & Generative AI",
     iconName: "Cpu",
-    skills: ["GitHub Copilot", "ChatGPT", "Google Gemini", "Architectural Analysis", "Complex Prototyping"]
+    skills: ["AG-UI", "AG2UI", "CopilotKit", "Agent Guardrails", "LLM Integration", "Prompt Engineering", "Google Gemini", "ChatGPT (GPT-4)", "GitHub Copilot", "RAG", "AI Roadmap Strategy", "Agentic Workflow Design"]
   },
   {
-    category: "Languages & Frameworks",
+    category: "Frontend & Frameworks",
     iconName: "Code",
-    skills: ["JavaScript", "Python", "Java", "React", "Next.js", "Node.js", "Spring Reactive Programming", "Micro Frontends (MFE)"]
+    skills: ["React.js", "Next.js", "Micro Frontends (MFE)", "Single Page Applications (SPA)", "Node.js", "TypeScript", "JavaScript (ES6+)", "Spring Reactive (WebFlux)", "Java"]
+  },
+  {
+    category: "Cloud & DevOps",
+    iconName: "Cloud",
+    skills: ["CI/CD Pipelines", "Cloud-Native Architecture", "API Gateway", "Containerization", "Performance Monitoring", "SEO Optimization", "Agile / Scrum", "OKRs"]
   }
 ];
 
@@ -44,10 +48,13 @@ export const PROFESSIONAL_EXPERIENCE: Experience[] = [
     location: "Chennai, Tamil Nadu",
     period: "September 2016 – Present",
     highlights: [
-      "Spearheaded the architectural design of a major platform modernization, migrating a monolith to a multi-repository SPA serving 3 million daily users.",
-      "Established and drove the Generative AI roadmap using Gemini and ChatGPT for improving conversion funnel velocity.",
-      "Directed a critical performance engineering initiative, reducing page load times from 5s to 3s.",
-      "Managed and mentored a high-performing team of 10+ engineers."
+      "Architected the end-to-end Agentic customer purchase journey for device and plan selection, leveraging AG-UI, AG2UI, and CopilotKit protocols combined with Agent Guardrails to deliver safe, intent-driven, and compliant AI interactions across the eCommerce funnel.",
+      "Established and drove the enterprise Generative AI roadmap, translating Proof-of-Concept results using Google Gemini and GPT-4 (ChatGPT) into production-ready strategies that improved conversion funnel velocity.",
+      "Spearheaded the architectural migration of a legacy monolith to a cloud-native, multi-repository Single Page Application (SPA) using React.js and Next.js, scaling to serve 3M+ daily active users.",
+      "Directed a high-impact performance optimization initiative, reducing average page load times by 40% (5s to 3s), directly improving Core Web Vitals and conversion rates.",
+      "Led engineering delivery of a high-performance eCommerce application using Next.js and Spring Reactive Programming (WebFlux).",
+      "Managed, mentored, and grew a high-performing team of 10+ engineers, structuring individual career development plans.",
+      "Designed and implemented a Micro Frontend (MFE) architecture enabling independent deployment of UI modules."
     ]
   },
   {
@@ -56,11 +63,10 @@ export const PROFESSIONAL_EXPERIENCE: Experience[] = [
     location: "Chennai, Tamil Nadu",
     period: "February 2014 – September 2016",
     highlights: [
-      "Secured major client contracts through accurate RFP technical scoping and resource estimation.",
-      "Managed a team of 3 engineers, overseeing successful project outcomes.",
-      "Received the 'Certificate of Excellence' for outstanding contribution towards mobility projects."
+      "Provided expert technical scoping and resource estimation for RFP responses, directly contributing to securing major enterprise client contracts.",
+      "Managed a team of 3 engineers, overseeing deliverables, project timelines, and professional development outcomes."
     ],
-    recognition: "Certificate of Excellence"
+    recognition: "Awarded Certificate of Excellence for outstanding contribution to enterprise mobility projects."
   },
   {
     role: "Software Developer",
@@ -68,9 +74,8 @@ export const PROFESSIONAL_EXPERIENCE: Experience[] = [
     location: "Chennai, Tamil Nadu",
     period: "July 2010 – February 2014",
     highlights: [
-      "Explored and applied multiple UX-related libraries and frameworks for iOS and hybrid (PhoneGap) development.",
-      "Received the 'Best Team Player' award."
+      "Explored and implemented UX-focused frameworks with hands-on development in iOS and hybrid applications using PhoneGap (Apache Cordova)."
     ],
-    recognition: "Best Team Player"
+    recognition: "Awarded Best Team Player award for cross-functional collaboration."
   }
 ];
